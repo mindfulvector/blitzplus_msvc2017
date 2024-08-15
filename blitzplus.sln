@@ -128,6 +128,11 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ZLib", "freeimage\ZLib\ZLib
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "audio", "audio\audio.vcxproj", "{245A53C3-5938-4066-9046-6F37FB78CC3F}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "bbruntime_ldr", "bbruntime_ldr\bbruntime_ldr.vcxproj", "{A2FD7017-B772-4FA8-A2F0-097D072EC316}"
+	ProjectSection(ProjectDependencies) = postProject
+		{F8B7C380-3D01-409F-84BA-C791D483A9F7} = {F8B7C380-3D01-409F-84BA-C791D483A9F7}
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x86 = Debug|x86
@@ -489,8 +494,17 @@ Global
 		{245A53C3-5938-4066-9046-6F37FB78CC3F}.Release|x86.Build.0 = Release|Win32
 		{245A53C3-5938-4066-9046-6F37FB78CC3F}.Template|x86.ActiveCfg = Template|Win32
 		{245A53C3-5938-4066-9046-6F37FB78CC3F}.Template|x86.Build.0 = Template|Win32
+		{A2FD7017-B772-4FA8-A2F0-097D072EC316}.Debug|x86.ActiveCfg = Debug|Win32
+		{A2FD7017-B772-4FA8-A2F0-097D072EC316}.Debug|x86.Build.0 = Debug|Win32
+		{A2FD7017-B772-4FA8-A2F0-097D072EC316}.Release|x86.ActiveCfg = Release|Win32
+		{A2FD7017-B772-4FA8-A2F0-097D072EC316}.Release|x86.Build.0 = Release|Win32
+		{A2FD7017-B772-4FA8-A2F0-097D072EC316}.Template|x86.ActiveCfg = Debug|Win32
+		{A2FD7017-B772-4FA8-A2F0-097D072EC316}.Template|x86.Build.0 = Debug|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {992CECAF-DEA6-480B-B7E4-C66F4D73CF05}
 	EndGlobalSection
 EndGlobal
